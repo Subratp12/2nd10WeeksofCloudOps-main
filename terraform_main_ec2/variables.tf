@@ -61,7 +61,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 keypair"
   type        = string
-  default     = "US"
+  default     = "my-us-key"
 }
 
 variable "instance_name" {
